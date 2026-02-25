@@ -3,12 +3,12 @@ let todoname='Cow Milk'
 let tododate='17/2/2026'
 
   return (
-    <div class="container text-center">
-      <div class="row">
+    <div class="container ">
+      <div class="row ak-row">
         <div class="col-6">{todoname}</div>
         <div class="col-4">{tododate}</div>
         <div class="col-2">
-          <button type="button" class="btn btn-danger">
+          <button type="button" class="btn btn-danger ak-button">
             Delete
           </button>
         </div>
