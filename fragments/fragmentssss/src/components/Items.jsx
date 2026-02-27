@@ -1,7 +1,9 @@
+import styles from "./Items.module.css"
+
+
 const Items = ({foodthings}) => {
   return (
-    <li className="list-group-item
-    bck-items"><span className="fonts">{foodthings}</span>
+    <li className= {`${styles["bck-items"]}` }><span className="fonts">{foodthings}</span>
     </li>
   );
 };
