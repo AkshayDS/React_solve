@@ -1,9 +1,22 @@
-import styles from "./Items.module.css"
+import styles from "./Items.module.css";
 
+const Items = ({ foodthings }) => {
+const buyclicked = (event)=>{
+  console.log(event);
+  console.log(`${foodthings} item being bought`)
 
-const Items = ({foodthings}) => {
+}
+
   return (
-    <li className= {`${styles["bck-items"]}` }><span className="fonts">{foodthings}</span>
+    <li className={`${styles["bck-items"]} list-group-item `}>
+      <span className="fonts">{foodthings}</span>
+      <button
+        className={`${styles.buttons} btn btn-info `}
+        onClick={(event)=>buyclicked(event)}
+      >
+        
+        Buy
+      </button>
     </li>
   );
 };

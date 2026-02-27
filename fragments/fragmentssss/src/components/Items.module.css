@@ -1,8 +1,11 @@
 .bck-items{
-  background-color:khaki
-}
-.fonts{
-  
-  font-weight:700; 
+  font-weight: 700;
   color: brown;
+}
+.buttons{
+  margin: 5px;
+  background-color: rgb(150, 153, 153);
+  width: 45px;
+  font-size: 10px;
+ float: right;
 }
