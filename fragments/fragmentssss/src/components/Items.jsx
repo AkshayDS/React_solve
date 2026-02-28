@@ -1,10 +1,10 @@
 import styles from "./Items.module.css";
 
-const Items = ({ foodthings, handleBuyButton }) => {
+const Items = ({ foodthings,bought, handleBuyButton }) => {
  
 
   return (
-    <li className={`${styles["bck-items"]} list-group-item `}>
+    <li className={`${styles["bck-items"]} list-group-item ${bought && "active"}`}>
       <span className="fonts">{foodthings}</span>
       <button
         className={`${styles.buttons} btn btn-info `}
