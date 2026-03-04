@@ -23,7 +23,7 @@ function handleSubmit(formData){
                     aria-label="Add ingredient"
                     name="ingredient"
                 />
-                <button>Add ingredient</button>
+                <button>Add ingredients</button>
             </form>
             <ul>
               {ingredientItems}
